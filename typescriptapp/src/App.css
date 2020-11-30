@@ -1,0 +1,45 @@
+.profileMini {
+ 
+    display: flex;
+    flex-direction: column;
+}
+.person {
+    padding-left: 5%;
+    width: 60%;
+    display: flex;
+    justify-content: left;
+   background-color: rgb(202, 202, 202);
+   margin: 4%;
+}
+.person img {
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.person img:hover {
+    opacity: 0.5;
+}
+.personClose {
+margin: 0 20px;
+}
+.profilePlus {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profilePlus button {
+    width:20%;
+    height: 5vh;
+    margin: 0 10px;
+    border: black solid 3px;
+    background-color: white;
+    font-size: 26px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.profilePlus button:hover {
+    background-color: black;
+    color: white;
+}
