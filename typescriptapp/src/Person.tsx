@@ -5,7 +5,7 @@ import List from './Next';
 interface Props {
     who:  any,  // TypeScript: *Został stworzony, aby kod był lepszy i żeby było mniej błędów*,
                 //Ja: a...N.....y
-    setWho: any
+    setWho: Function
 }
 const Person: React.FC <Props>  = ({who, setWho}) =>  {
 
